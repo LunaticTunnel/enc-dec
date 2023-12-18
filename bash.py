@@ -1,4 +1,6 @@
 # author : @thebhikandeshmukh
+# -*- coding: utf-8 -*-                                                       bash.py
+# author : LunaticTunnel
 # -*- coding: utf-8 -*-
 
 import os
@@ -17,17 +19,36 @@ C = '\033[1;36m'
 ask = G + '[' + W + '?' + G + '] '
 sukses = G + '[' + W + '√' + G + '] '
 eror = R + '[' + W + '!' + R + ']'
-
-banner = "LUNATIC TUNNELING"
-banner7 =  "[LT - PROJECT]".format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
-
-banner2 = """
-   {}[{}1{}]{} Encript      {}[{}2{}]{} Decrypt
+os.system('clear')
+banner0 = "\033[96m===============-LUNATIC-==================\033[0m"
+memek = " "
+banner1 = "\033[35m==========================================\033[0m"
+banner2 = "\033[31mScript Sederhana\033[0m".format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
+banner3 = "\033[1;32mContoh encrypt: \033[0m"
+banner4 = " ( /sdcard/namafile.sh )"
+banner5 = "\033[1;32mContoh Decrypt: \033[0m"
+banner6 = " ( /sdcard/hasil.sh )"
+banner7 = "\033[35m==========================================\033[0m"
+banner8 = "\033[1;31mWARNING !!!\033[0m"
+kontol = "hanya untuk file bash / sh / shell"
+banner9 = " "
+banner10 = """
+   {}[{}1{}]{} Encript [ bash ]      {}[{}2{}]{} Decrypt [ bash ]
 """.format(G,W,G,W,G,W,G,W)
 
-print banner
-print banner7
+print banner0
+print memek
+print banner1
 print banner2
+print banner3
+print banner4
+print banner5
+print banner6
+print banner7                                                                          
+print banner8
+print kontol
+print banner9                                                                           
+print banner10
 
 def dekrip():
    try:
