@@ -19,9 +19,7 @@ sukses = G + '[' + W + '√' + G + '] '
 eror = R + '[' + W + '!' + R + ']'
 
 banner = "LUNATIC TUNNELING"
-banner7 =  "[LT - PROJECT]"
-    
-.format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
+banner7 =  "[LT - PROJECT]".format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
 
 banner2 = """
    {}[{}1{}]{} Encript      {}[{}2{}]{} Decrypt
